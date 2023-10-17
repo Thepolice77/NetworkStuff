@@ -10,6 +10,6 @@ def berechne_subnetz(ip_netzwerk):
     print("Broadcast-Adresse: ", broadcast_adresse)
     print("IP-Bereich: ", ip_bereich[0], "-", ip_bereich[-1])
 
-# Testen Sie das Programm mit einem IP-Netzwerk
+# Testen Sie das Programm mit einem IP-Netzwerk ihres vertrauens
 berechne_subnetz('192.168.20.24/29')
 
